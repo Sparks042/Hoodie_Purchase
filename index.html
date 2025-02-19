@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/index.css">
+    <title>Product Page </title>
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="product-page">
+            <div class="product-page-container">
+                <div class="slide-content">
+                    <span class="up-slide">
+                        <img id="scroll-up" src="./Images/faq-up-arrow.png" id="slide-icon" alt="">
+                    </span>
+                    <div class="hoddie-images">
+                        <img src="./Images/slide-one-three.png" alt="">
+                        <img src="./Images/slide-one-one.png" alt="">
+                        <img src="./Images/slide-one-two.png" alt="">
+                    </div>
+                    <span class="down-slide">
+                        <img id="scroll-down" src="./Images/faq-down-arrow.png" id="slide-icon" alt="">
+                    </span>
+                </div>
+                <div class="product-image">
+                    <img src="./Images/main-image-pic.png" id="active-image" alt="Product Image">
+                </div>
+                <div class="product-details">
+                    <span id="notification-span"><img src="./Images/notification-icon.png" alt="">
+                        <p>Selling fast! 5 people have this in their carts.</p>
+                    </span>
+                    <h1 class="product-name">Personalized Photo and Slogan Text Hoodie </h1>
+                    <div id="stock">
+                        <div id="product-price">
+                            <p class="main-price">$99.99</p>
+                            <p class="product-old-price">$44.44</p>
+                        </div>
+                        <div class="stock">
+                            <img src="./Images/stock-counter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                        <span>
+                            <p>I love this! When I saw this hoodie, I knew I had to get it.</p>
+                            <p>It makes me so confident every time I wear it. Thanks</p>
+                            <p id="rater-username">Wendy N.</p>
+                        </span>
+                    </div>
+                    <div class="CST">
+                        <label for="color">Color</label><br>
+                        <img src="./Images/color-row.png" alt=""> <br>
+                        <label for="size">Size</label> <br>
+                        <span id="sizes">
+                            <p class="small">S</p>
+                            <p class="medium">M</p>
+                            <p class="large">L</p>
+                            <p class="extra-large">XL</p>
+                        </span>
+                    </div>
+                    <div class="message-box">
+                        <p id="instruction">Type your custom text</p>
+                        <span id="note-text">Please note the font size and color in parentheses after your text. <br>
+                            E.g. My
+                            BFF
+                            (30, Black)
+                        </span>
+                        <input type="text" id="message" placeholder="My custom hoodie">
+                    </div>
+                    <div class="offer">
+                        <p>Perfect to</p>
+                        <span id="offer1"><i class="fa-solid fa-star" style="color: #25549E;"></i>
+                            <p>Dress yourself up</p>
+                        </span> <br>
+                        <span id="offer1"><i class="fa-solid fa-heart" style="color: #25549E;"></i>
+                            <p>Anniversary gifts for your loved one</p>
+                        </span> <br>
+                        <span id="offer1"><i class="fa-solid fa-gift" style="color: #25549E;"></i>
+                            <p>Birthday or celebration gifts for friends and family</p>
+                        </span>
+                    </div>
+                    <div class="quantity">
+                        <span class="hoodie-button">
+                            <div class="number">
+                                <button class="minus-btn" type="button">
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <input class="quantity-value" type="text" value="1">
+                                <button class="plus-btn" type="button">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="order">
+                                <button id="get-hoodie-button">GET MY HOODIE</button>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="safe-check-out">
+                        <span class="hr-line">
+                            <hr>
+                            <p id="check-out-p">Guaranteed SAFE Checkout</p>
+                            <hr>
+                        </span>
+                        <div class="GPM">
+                            <img src="./Images/image 25.png" alt="">
+                            <img src="./Images/image 26.png" alt="">
+                            <img src="./Images/image 27.png" alt="">
+                            <img src="./Images/image 28.png" alt="">
+                            <img src="./Images/image 29.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- OVERVIEW SECTION AND MORE -->
+        <section class="overview-section">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#" id="overview-tab">OVERVIEW</a></li>
+                    <li><a href="#" id="sizing-tab">SIZING</a></li>
+                    <li><a href="#" id="packaging-tab">PACKAGING</a></li>
+                    <li><a href="#" id="shipping-return-tap">SHIPPING & FREE RETURNS</a></li>
+                </ul>
+            </nav>
+            <!-- OVERVIEW SLIDE IN -->
+            <div class="overview-content nav-list-contents active">
+                <div class="overview">
+                    <h4>Overview</h4>
+                    <p id="first-p-overview">One of our most popular t-shirts for direct-to-garment printing.</p>
+                    <p id="second-p-overview">It’s eco-friendly, unisex, and available in plenty of colour options. And
+                        it’s manufactured not
+                        only to high quality standards but with garment decoration in mind. It’s made for DTG, made for
+                        embroidery. There’s a reason why countless online clothing brands use it as their staple hoodie!
+                        Find yours below.</p>
+                    <ul class="overview-ul">
+                        <li>Unisex style, medium fit. It’s for everyone.</li>
+                        <li>Round drawcords in matching body color.</li>
+                        <li>1x1 rib at sleeve hem and bottom hem.</li>
+                        <li>Flatlock topstitch on all seams.</li>
+                        <li>Kangaroo pocket with flatlock topstitch</li>
+                    </ul>
+                </div>
+                <div class="material">
+                    <h4>Material</h4>
+                    <ul class="material-ul">
+                        <li>85% Organic ring-spun Combed Cotton</li>
+                        <li>15% Recycled Polyester.</li>
+                    </ul>
+                    <div class="weight">
+                        <h4>Weight</h4>
+                        <ul class="weight-ul">
+                            <li>270gsm.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="color">
+                    <h4>Color information</h4>
+                    <p class="color-p">Color repre­­sen­­ta­­tion is only as accurate as the web design process allows.
+                    </p>
+                </div>
+            </div>
+            <!-- SIZING IN SLIDE-->
+            <section class="sizing-section nav-list-contents">
+                <div class="sizing-section-container">
+                    <div class="FBview">
+                        <p id="sizing-p-one">Front and Back</p>
+                        <div class="views">
+                            <div class="front-view">
+                                <img src="./Images/front-view.png" alt="">
+                            </div>
+                            <div class="back-view">
+                                <img src="./Images/back-view.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size-chart">
+                        <p id="sizing-p-two">Size Chart</p>
+                        <table>
+                            <tr>
+                                <th>Sizes</th>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>L</th>
+                                <th>XL</th>
+                            </tr>
+                            <tr>
+                                <td>Half Chest</td>
+                                <td>51.5</td>
+                                <td>54</td>
+                                <td>57</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>Body Length</td>
+                                <td>66</td>
+                                <td>70</td>
+                                <td>72</td>
+                                <td>74</td>
+                            </tr>
+                            <tr>
+                                <td>Sleeve Length</td>
+                                <td>64</td>
+                                <td>65.5</td>
+                                <td>67</td>
+                                <td>68.5</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <!-- SHIPPING & RETURN -->
+            <section class="shipping-and-return">
+                <div class="shipping-and-return-container nav-list-contents">
+                    <div class="left-content">
+                        <p class="shipping-p">Shipping</p>
+                        <p id="shipping-first-p">The products are printed and shipped via a third party printing
+                            company, with times that vary due
+                            to order volume.
+                        </p> <br>
+
+                        <p id="shipping-second-p">We would currently allow up to 3 weeks for your order to arrive
+                            just to be safe, though it could
+                            take much less time!</p> <br>
+
+                        <p id="shipping-third-p">If you need the hoodie immediately than the estimated time, please
+                            upgrade shipping in the cart.
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <p class="shipping-p">Free returns</p>
+                        <p id="shipping-fourth-p">If you are not 100% satisfied with your items, you may return your
+                            order for a refund on all
+                            eligible merchandise (Original shipping charges are non-refundable). Our return policy
+                            is
+                            effective for up to 60 days from when the order is fulfilled.</p><br>
+
+                        <p id="shipping-fifth-p"> We want you to have the best experience when shopping online with
+                            us, so if for whatever reason
+                            you’re not happy with your purchase, please let us know via: gemcustom@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+            <!-- PACKAGING -->
+            <section id="packaging">
+                <div class="packaging-container   nav-list-contents">
+                    <div class="left-side-packaging-content">
+                        <p class="packaging-p">
+                            Eco-friendly Packaging
+                        </p>
+                        <p id="packaging-second-p">All orders are shipped in 100% plastic-free packaging. Hoodies
+                            are folded neatly into these bags,
+                            to save on packing materials and reduce waste we do not pack items into individual bags
+                            before
+                            they are shipped in these mailers.
+                        </p> <br>
+                        <p id="packaging-third-p"> Our paper postal mailing bags are manufactured from responsible,
+                            sustainable sources to comply
+                            with FSC certi­fica­tion. The paper is both compostable and degradable, and paper
+                            mailers can be
+                            easily recycled, making this an extremely eco-friendly option. The weather-proof parcel
+                            protects
+                            its contents during transit.
+                        </p>
+                    </div>
+                    <div class="right-side-packaging-content">
+                        <p class="packaging-p">
+                            Free Gift Wrapping
+
+                        </p>
+                        <p id="packaging-fourth-p">
+                            If you need extra help wrapping your order as a gift for your friends and loved ones,
+                            here we are
+                            at your service. And it’s totally FREE!
+                        </p> <br>
+
+                        <p id="packaging-fifth-p">
+                            Just don’t forget to add a note to us for any request when you check out, and we'll make
+                            it the
+                            most perfect gift ever.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
