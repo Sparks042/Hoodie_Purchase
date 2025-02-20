@@ -730,6 +730,7 @@ hr{
 .reviews-section{
     padding-left: 3px;
     padding-right: 0px;
+    display: none;
  }
 .reviews>p{
     font-size: 10px;
